@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-color: #14253C;
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto', Times, serif;
+}
+
+.wapper{
+    margin: 30px auto;
+
+    width: 320px;
+    height: 80vh;
+    background-color: 	#15273F;
+    color: gray;
+    padding: 10px;
+
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 30px 1px 10px #101d2f7e;
+ 
+}
+
+.wapper .section-img-nft{
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Dixa a div que contem o svg icon em "none" para no hover deixa em "block" */
+
+.section-img-nft div svg{
+    position: absolute;
+    left: 41%;
+    top: 40%;
+}
+
+.section-img-nft .div-icon{
+    display: none;
+    width: 280px;
+    height: 250px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgba(0, 255, 255, 0.486);
+    transition: 0.5 ease-in-out;
+}
+
+.wapper .section-img-nft .img-nft{
+    margin: 10px;
+    width: 100%;
+    height: 40vh;
+    border-radius: 5px;
+}
+
+.section-img-nft:hover .div-icon{
+    display: block;
+    cursor: pointer;
+    
+}
+
+.wapper .section-description{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    height: auto;
+}
+/* Na sesão descrição separei todos os itens, tanta pela organização como tambem fiz mudança
+    diversas, achei melhor assim.*/
+.section-description .description-div-name p{
+    color: white;
+    font-weight: 600;
+}
+
+.description-div-name .name-nft:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+.wapper .section-description
+.description-div-name, .description-div-description{
+    margin-top: 15px;
+
+}
+
+.section-description .description-div-time{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.description-div-time .div-valor, .div-time{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.description-div-time p{
+    margin-left: 5px;
+}
+
+.description-div-time .div-valor p{
+    color: aqua;
+}
+
+.description-div-time .div-time p{
+    color: gray;
+}
+
+hr{
+    margin: 0px 10px;
+    border: 1px solid rgba(128, 128, 128, 0.516);
+}
+
+.wapper .section-perfil-{
+    margin: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wapper .section-perfil- img{
+    width: 35px;
+    height: 35px;
+    border: 2px solid gray;
+    border-radius: 50%;
+}
+
+.wapper .section-perfil- p{
+    margin-left: 10px;
+}
+
+.section-perfil- strong{
+ color: white;
+ font-weight: 600;
+ transition: 0.5 ease-in-out;
+}
+
+.section-perfil- strong:hover{
+    color: aqua;
+    cursor: pointer;
+}

@@ -1,0 +1,5 @@
+NFT
+main - display flex columun - border radius
+tres section{ 1:NFT, 2:Nome#code - Descrição - div - dinheiro/tempo, 3:Criador(a) }
+perfil - texto - link
+sombra 20px
